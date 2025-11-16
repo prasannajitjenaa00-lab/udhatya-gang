@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Udhatya Gang</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #ecd8d8, #0a0a0a, #111);
+      color: #00ffcc;
+      text-align: center;
+    }
+    header {
+      padding: 50px 20px;
+      background: rgba(0, 0, 0, 0.8);
+      color: #00ffcc;
+      font-size: 3rem;
+      font-weight: 800;
+      letter-spacing: 3px;
+      text-shadow: 0 0 15px #00ffcc;
+      border-bottom: 3px solid #00ffcc;
+    }
+    section {
+      padding: 40px 20px;
+    }
+    .card {
+      background: rgba(0, 0, 0, 0.7);
+      margin: 25px auto;
+      padding: 30px;
+      border-radius: 20px;
+      max-width: 700px;
+      border: 2px solid #00ffcc;
+      box-shadow: 0 0 25px rgba(0, 255, 200, 0.2);
+      backdrop-filter: blur(8px);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: scale(1.02);
+      box-shadow: 0 0 35px rgba(0, 255, 200, 0.4);
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 15px;
+      text-shadow: 0 0 10px #00ffcc;
+    }
+    footer {
+      margin-top: 40px;
+      padding: 25px;
+      background: rgba(0, 0, 0, 0.85);
+      color: #00ffcc;
+      letter-spacing: 2px;
+      border-top: 3px solid #00ffcc;
+      text-shadow: 0 0 10px #00ffcc;
+    }
+    @media (max-width: 600px) {
+      header {
+        height: 60vh !important;
+        padding: 20px;
+      }
+      header h1 {
+        font-size: 2.2rem !important;
+      }
+      header p {
+        font-size: 1rem !important;
+        padding: 0 10px;
+      }
+      a {
+        font-size: 0.9rem !important;
+        padding: 10px 18px !important;
+      }
+      section {
+        padding: 30px 15px !important;
+      }
+      .card {
+        width: 100% !important;
+        margin: 15px 0 !important;
+        padding: 20px !important;
+      }
+      h2 {
+        font-size: 1.8rem !important;
+      }
+      h3 {
+        font-size: 1.3rem !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header style="position:relative;" style="background: url('https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1350&q=80') center/cover no-repeat; height: 80vh; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; text-shadow: 0 0 5px #000;">
+    <h1 style="font-size: 3.5rem; font-weight: 800;">Udhatya Gang</h1>
+    <img src="Screenshot 2025-11-16 183016.png" alt="Group Icon" style="width:120px; height:120px; border-radius:50%; object-fit:cover; position:absolute; top:20px; left:20px; border:3px solid #00ffcc; box-shadow:0 0 15px #00ffcc;">
+    <p style="font-size: 1.5rem; max-width: 600px;">Brotherhood, memories, loyalty — our bond is forever.</p>
+    <a href="#about" style="padding: 12px 25px; background: #00ffcc; color:#000; border-radius: 8px; font-weight:700; text-decoration:none; box-shadow:0 0 10px #00ffcc;">Explore</a>
+  </header>
+
+  <section id="about" style="padding:60px 20px; background:#022b33; color:#dffff8;">
+    <h2 style="font-size:2.5rem; margin-bottom:20px;">About Udhatya Gang</h2>
+    <p style="max-width:700px; margin:auto; font-size:1.1rem;">We are a group of 5 brothers bonded through friendship, loyalty, and unforgettable memories. Udhatya Gang is not just a group — it’s a family that stays together through everything.</p>
+    <section id="gallery" style="padding:60px 20px; background:#012428; color:#dffff8;">
+    <h2 style="font-size:2.5rem; margin-bottom:25px;">Photo Gallery</h2>
+
+    <div class="gallery-grid" style="
+      display:grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap:15px;
+      max-width:900px;
+      margin:auto;
+    ">
+      <!-- Add photos here
+      <div style="background:#03363d; height:150px; border-radius:10px; display:flex; align-items:center; justify-content:center; color:#00ffcc;">Upload Photo</div>
+      <div style="background:#03363d; height:150px; border-radius:10px; display:flex; align-items:center; justify-content:center; color:#00ffcc;">Upload Photo</div>
+      <div style="background:#03363d; height:150px; border-radius:10px; display:flex; align-items:center; justify-content:center; color:#00ffcc;">Upload Photo</div>
+    </div>
+
+    <p style="margin-top:20px; font-size:1rem; opacity:0.7;">Send me photos and I will insert them into the gallery.</p>
+  </section> -->
+
+<!-- Photo Slider Section -->
+<section id="slider" style="padding:60px 20px; background:#001c20; color:#dffff8; text-align:center;">
+  <h2 style="font-size:2.5rem; margin-bottom:25px;">udhtaya gang </h2>
+
+  <div class="slider" style="max-width:700px; margin:auto; position:relative; overflow:hidden; border-radius:20px;">
+    <div class="slides" style="display:flex; width:300%; animation: slide 12s infinite;">
+
+      <!-- <img src="Screenshot 2025-11-16 183016.png" style="width:190%; height:250px; object-fit:cover;" alt="Slide 1"> -->
+ 
+      <img src="Screenshot 2025-11-16 183016.png" style="width:190%; height:350px; object-fit:cover;" alt="Slide 2">
+
+      <img src="Screenshot 2025-11-16 183016.png" style="width:190%; height:350px; object-fit:cover;" alt="Slide 3"> 
+
+      <img src="WhatsApp Image 2025-11-16 at 7.55.50 PM (1).jpeg" style="width:190%; height:350px; object-fit:cover;" alt="Slide 1">
+
+      <img src="WhatsApp Image 2025-11-16 at 7.55.50 PM.jpeg" style="width:190%; height:350px; object-fit:cover;" alt="Slide 2">
+
+      <img src="WhatsApp Image 2025-11-16 at 7.55.51 PM.jpeg" style="width:190%; height:350px; object-fit:cover;" alt="Slide 3">
+
+    </div>
+  </div>
+
+  <p style="margin-top:15px; opacity:0.7;">deepak kumar jena.</p>
+</section>
+
+</section>
+
+<style>
+@keyframes slide {
+  555% {transform: translateX(10%);} 
+  33% {transform: translateX(-100%);} 
+  66% {transform: translateX(-200%);} 
+  1000% {transform: translateX(0%);} 
+}
+</style>
+
+  <section style.src="padding:60px 20px; background:#3e0c0c; color:#022b33; display:flex; justify-content:center; gap:20px; flex-wrap:wrap;">
+    <div class="card" style="background:#e5f7f6; padding:25px; width:300px; border-radius:15px;">
+      <h3>Memories</h3>
+      <p>Our unforgettable moments and friendship journey.</p>
+      <div>
+        <img src="Screenshot 2025-11-16 183016.png" style="width:100%; height:350px; object-fit:cover;" alt="Slide 1">
+      </div>
+    </div>
+    <div class="card" style="background:#011413; padding:25px; width:300px; border-radius:15px;">
+      <h3>ceo of udhatya gang- Mr deepak kumar jena</h3>
+      <p>Your most unhappy customers are your greatest source of learning Deepak kumar jena, Co-founder of udhatya Gang.</p>
+      <img src="deepak.jpg" style="width:100%; border-radius:15px; margin-top:15px;">
+    </div>
+    <div class="card" style="background:#000000; padding:25px; width:300px; border-radius:15px;">
+      <h3>our bond</h3>
+      <p>Friendship ... is born at the moment when one man says to another "What! You too? I thought that no one but myself . . ..</p>
+    </div>
+  </section>
+
+  <footer style="padding:20px; background:#011f24; color:#00ffcc; text-align:center;">
+    © 2025 Udhatya Gang | All Rights Reserved
+  </footer>
+</body>
+</html>
+deepak kumar jena
+</div>
+
+
+    <!-- <p style="margin-top:20px; font-size:1rem; opacity:0.7;">Send me photos and I will insert them into the gallery.</p>
+  </section> -->
+
+<!-- </section>
+
+  <section style="padding:60px 20px; background:#fff; color:#022b33; display:flex; justify-content:center; gap:20px; flex-wrap:wrap;">
+    <div class="card" style="background:#e5f7f6; padding:25px; width:300px; border-radius:15px;">
+      <h3>Memories</h3>
+      <p>Our unforgettable moments and friendship journey.</p>
+    </div>
+    <div class="card" style="background:#e5f7f6; padding:25px; width:300px; border-radius:15px;">
+      <h3>Brotherhood</h3>
+      <p>A bond stronger than time — our unity defines us.</p>
+    </div>
+    <div class="card" style="background:#e5f7f6; padding:25px; width:300px; border-radius:15px;">
+      <h3>Gallery</h3>
+      <p>Photos that freeze our best moments forever.</p>
+    </div>
+  </section>
+
+  <footer style="padding:20px; background:#011f24; color:#00ffcc; text-align:center;">
+    © 2025 Udhatya Gang | All Rights Reserved
+  </footer>
+</body>
+</html> -->
